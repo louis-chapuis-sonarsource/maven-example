@@ -1,0 +1,6 @@
+projectKey=org.sonarqube:sonarscanner-maven-basic
+serverUrl=http://localhost/latest
+serverVersion=9.8.0.63668
+dashboardUrl=http://localhost/latest/dashboard?id=org.sonarqube%3Asonarscanner-maven-basic
+ceTaskId=AYXexF8CLbjZQ4NTP_NR
+ceTaskUrl=http://localhost/latest/api/ce/task?id=AYXexF8CLbjZQ4NTP_NR

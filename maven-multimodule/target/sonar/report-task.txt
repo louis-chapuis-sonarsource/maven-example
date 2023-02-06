@@ -1,0 +1,6 @@
+projectKey=org.sonarqube:sonarscanner-maven-aggregate
+serverUrl=http://localhost/lts
+serverVersion=8.9.10.61524
+dashboardUrl=http://localhost/lts/dashboard?id=org.sonarqube%3Asonarscanner-maven-aggregate
+ceTaskId=AYU_ZRrAtdk5K7sbNtdO
+ceTaskUrl=http://localhost/lts/api/ce/task?id=AYU_ZRrAtdk5K7sbNtdO

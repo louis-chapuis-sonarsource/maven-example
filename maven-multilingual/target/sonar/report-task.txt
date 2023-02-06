@@ -1,0 +1,6 @@
+projectKey=org.sonarqube:sonarscanner-maven-multilingual
+serverUrl=http://localhost/latest
+serverVersion=9.7.0.61563
+dashboardUrl=http://localhost/latest/dashboard?id=org.sonarqube%3Asonarscanner-maven-multilingual
+ceTaskId=AYP6rr47YoWky5c-ydy0
+ceTaskUrl=http://localhost/latest/api/ce/task?id=AYP6rr47YoWky5c-ydy0
