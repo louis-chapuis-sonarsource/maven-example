@@ -11,12 +11,12 @@ public class HelloWorld {
   }
   
   void sayBye() {
-	    //System.out.println("Bye World!");
+	    System.out.println("Bye World!");
 	  }
- void notCovered() {
+ void notCovered2() {
     System.out.println("This method is not covered by unit tests");
   }
-  void sayBye() {
+  void sayByecommented() {
 	    //System.out.println("Bye World!")
   }
 }
