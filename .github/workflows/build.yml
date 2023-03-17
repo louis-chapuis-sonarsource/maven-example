@@ -39,4 +39,4 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
           
-        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.branch.name=${GITHUB_REF##*/} -Dsonar.pullrequest.key= -Dsonar.pullrequest.branch= -Dsonar.pullrequest.base= -Dsonar.projectKey=louis-chapuis-sonarsource_maven-example_AYYnBSyU34uwzLDe672u
+        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.branch.name=${GITHUB_REF##*/} -Dsonar.projectKey=louis-chapuis-sonarsource_maven-example_AYYnBSyU34uwzLDe672u
