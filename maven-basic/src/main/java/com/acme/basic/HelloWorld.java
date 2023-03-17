@@ -7,11 +7,11 @@ public class HelloWorld {
   }
 
   void notCovered() {
-    System.out.println("This method is not covered by unit tests");
+   // System.out.println("This method is not covered by unit tests");
   }
   
   void sayBye() {
-	    //System.out.println("Bye World!");
+	    System.out.println("Bye World!");
 	  }
 
 }
