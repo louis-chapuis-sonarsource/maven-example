@@ -13,5 +13,7 @@ public class HelloWorld {
   void sayBye() {
 	    //System.out.println("Bye World!");
 	  }
-
+  void sayByeBye() {
+	    System.out.println("ByeBye World!");
+	  }
 }
