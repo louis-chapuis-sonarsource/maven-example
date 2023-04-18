@@ -16,7 +16,7 @@ public class HelloWorld {
   }
   
   void sayByeBye() {
-	    //System.out.println("Bye Bye World!");
+	    System.out.println("Bye Bye World!");
 	  }
 	
 
