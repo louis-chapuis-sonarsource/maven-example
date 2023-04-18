@@ -10,8 +10,9 @@ public class HelloWorld {
     System.out.println("This method is not covered by unit tests");
   }
   
+	
   void sayBye() {
-	    System.out.println("Bye Bye World!");
+	    //System.out.println("Bye Bye World!");
 	  }
 
 }
