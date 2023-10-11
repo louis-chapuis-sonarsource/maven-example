@@ -1,24 +1,23 @@
-node {
-  stage('SCM') {
-    checkout scm
-  }
-  stage("build & SonarQube analysis") {
+pipeline {
     agent any
-    steps {
-      withSonarQubeEnv('My SonarQube Server') {
-        dir("maven-basic") {
-          sh 'mvn clean package sonar:sonar'
-        }        
-      }
+    stages {
+        stage('Checkout') {
+            steps {
+              checkout scm
+             }
+        }
+        stage('Build') {
+            steps {
+                // You can add build steps here if needed
+                withSonarQubeEnv('sonarqube') {
+                  sh 'mvn clean verify sonar:sonar -Dsonar.projectKey=Jenkins' // Example Maven build step
+                 }
+                 timeout(time: 1, unit: 'MINUTES') {
+                    waitForQualityGate abortPipeline: true
+                 }
+            }
+        }
     }
-  }
-  stage("Quality Gate") {
-    steps {
-      timeout(time: 1, unit: 'MINUTES') {
-        waitForQualityGate abortPipeline: true
-      }
-    }
-  }
 }
 
     
